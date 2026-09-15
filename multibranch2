@@ -1,4 +1,7 @@
-stage('Tests') {
+pipeline {
+    agent any
+
+    stage('Tests') {
     parallel {
         stage('Unit') {
             steps {
