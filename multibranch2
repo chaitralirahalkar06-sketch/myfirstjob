@@ -5,7 +5,6 @@ stage('Tests') {
                 sh 'echo Running unit tests'
             }
         }
-
         stage('Integration') {
             steps {
                 sh 'echo Running integration tests'
