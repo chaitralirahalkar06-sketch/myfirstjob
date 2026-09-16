@@ -21,3 +21,14 @@ pipeline {
         }
     }
 }
+
+Q.verify: What Would you check After the fix ?
+Answer: After adding or correcting the Jenkinsfile, check the following:
+1.Jenkinsfile exists in the dev branch.
+2.Filename and case are correct: Jenkinsfile.
+3.Script Path in Jenkins matches the actual file location.
+4.Jenkinsfile is committed and pushed to the correct branch.
+5.Multibranch scan completes successfully.
+6.The dev branch job no longer shows “No Jenkinsfile found”.
+7.A new build is triggered or started manually.
+8.Check the Console Output to confirm that the Pipeline stages execute successfully
